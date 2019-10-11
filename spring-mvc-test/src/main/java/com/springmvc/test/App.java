@@ -11,6 +11,7 @@ public class App {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws InterruptedException {
+		MainClass.getMainClass();
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
 		SingletonBean firstSingleton = context.getBean(SingletonBean.class);
