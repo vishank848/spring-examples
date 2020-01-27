@@ -1,0 +1,8 @@
+
+spring-mvc-test/.classpath
+spring-mvc-test/.project
+*.prefs
+*.class
+*.MF
+*.properties
+*.xml
